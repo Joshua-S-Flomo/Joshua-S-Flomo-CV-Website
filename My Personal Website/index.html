@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My Personal Website </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        
+        <!-- adding home section-->
+
+         <section id="Home" class="section active">
+            <div class="Profile">
+                <img src="My Photo.jpg" alt="Joshusa S. Flomo" class="Profile-img">
+                <h1> Joshua S. Flomo </h1><br>
+                <p>I am a Website Developer and a Database Administrator.</p>
+            </div>
+
+
+
+
+            <div class="button-group">
+                <button onclick="showSection('Intro')">My Introduction</button>
+                <button onclick="showSection('CV')">View My CV</button>
+                <button onclick="showSection('Bio')">My Autobiography</button>
+            </div>
+         </section>
+
+
+
+
+         <!-- adding Introduction sections -->
+
+         <section id="Intro" class="section">
+            <h1>MY INTRODUCTION</h1>
+            <p>
+                I am Joshua S. Flomo attending the University of Liberia studying Website Development, Networking, Database Management.
+            </p>
+            <button onclick="showSection('Home')"> Back to Home </button>
+         </section>
+
+
+
+
+         <section id="CV" class="section">
+            <h1>MY CV</h1>
+            <h3>Work Experience</h3>
+            <p>
+                Work as Teacher at the University of Liberia.
+            </p>
+            <hr>
+            <button onclick="showSection('Home')"> Back to Home</button>
+         </section>
+
+
+
+
+
+         <section id="Bio" class="section">
+            <h1>MY AUTOBIOGRAPHY</h1>
+            <p>
+                My name is Joshua S. Flomo. I was born unto the union of Mr. & Mrs. Flomo. I was born on January 23, 2003 in Gbarnga 
+                City, Bong County-Republic of Liberia at the Dumbar Hospital in Gbarnga at the precise hour of 7:30AM Sunday morning.
+            </p>
+            <button onclick="showSection('Home')">Back to Home</button>
+            </section>
+
+
+
+
+         
+        <script src="script.js"></script>
+    </body>
+</html>

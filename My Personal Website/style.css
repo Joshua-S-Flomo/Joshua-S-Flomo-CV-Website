@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eff3ee;
+}
+
+.nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.section {
+    display: none;
+    padding: 80px 20px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section.active {
+    display: block;
+}
+
+.Profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button-group {
+text-align: center;
+}
+
+.button-group button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+section button {
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
