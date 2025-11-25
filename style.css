@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #eff3ee;
+    background: yellow;
 }
 
 .nav {
@@ -71,8 +71,32 @@ text-align: center;
 
 section button {
     border: none;
-    background-color: orange;
+    background-color: greenyellow;
     cursor: pointer;
     font-size: 18px;
     
+}
+
+.social-media-contact {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+}
+
+.icon-links {
+word-spacing: 50px;
+}
+
+h1 {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 10px;
 }
