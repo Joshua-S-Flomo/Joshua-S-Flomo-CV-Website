@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(color.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.section {
+    display: none;
+    padding: 80px 20px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section.active {
+    display: block;
+}
+
+.Profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button-group {
+text-align: center;
+}
+
+.button-group button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+section button {
+    border: none;
+    background-color: greenyellow;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.social-media-contact {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+
+.icon-links {
+word-spacing: 50px;
+}
+
+h1 {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 20px;
+}
+
+span {
+    background-color: slategray;
+    color: black;
+}
